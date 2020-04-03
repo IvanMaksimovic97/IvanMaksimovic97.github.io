@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "title": "Gone with the Wind",
+        "author": "Margaret Munnerlyn Mitchell"
+    },
+    {
+        "id": "2",
+        "title": "Hamlet",
+        "author": "William Shakespeare"
+    },
+    {
+        "id": "3",
+        "title": "Don Quixote",
+        "author": "Miguel de Cervantes"
+    },
+    {
+        "id": "4",
+        "title": "Moby Dick",
+        "author": "Herman Melville"
+    },
+    {
+        "id": "5",
+        "title": "War and Peace",
+        "author": "Leo Tolstoy"
+    }
+]
