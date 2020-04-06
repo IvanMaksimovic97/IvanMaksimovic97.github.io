@@ -255,22 +255,22 @@ tbody tr:hover {
     top: 0;
   }
   table tbody tr td:nth-child(1):before {
-    content: "Date";
+    content: "Article";
   }
   table tbody tr td:nth-child(2):before {
-    content: "Order ID";
-  }
-  table tbody tr td:nth-child(3):before {
-    content: "Name";
-  }
-  table tbody tr td:nth-child(4):before {
-    content: "Price";
-  }
-  table tbody tr td:nth-child(5):before {
     content: "Quantity";
   }
-  table tbody tr td:nth-child(6):before {
+  table tbody tr td:nth-child(3):before {
+    content: "Price";
+  }
+  table tbody tr td:nth-child(4):before {
     content: "Total";
+  }
+  /* table tbody tr td:nth-child(5):before {
+    content: "Quantity";
+  } */
+  table tbody tr td:nth-child(6):before {
+    content: "Remove";
   }
 
   .column4,
