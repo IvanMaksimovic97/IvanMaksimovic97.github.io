@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Article1",
+        "price1": 10,
+        "price2": 12
+    },
+    {
+        "id": 2,
+        "name": "Article2",
+        "price1": 20,
+        "price2": 22
+    },
+    {
+        "id": 3,
+        "name": "Article3",
+        "price1": 30,
+        "price2": 32
+    },
+    {
+        "id": 4,
+        "name": "Article4",
+        "price1": 40,
+        "price2": 42
+    },
+    {
+        "id": 5,
+        "name": "Article5",
+        "price1": 50,
+        "price2": 52
+    },
+    {
+        "id": 6,
+        "name": "Article6",
+        "price1": 60,
+        "price2": 62
+    }
+]
