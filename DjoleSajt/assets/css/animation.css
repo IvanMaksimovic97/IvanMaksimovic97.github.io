@@ -1,0 +1,782 @@
+#animacija {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2px;
+    background-image: url("file:///C:/Users/Ivan/Desktop/DjoleSajt/assets/images/slider/01/01slika.jpg");
+    background-size: 1020px 765px;
+    max-height: 768px;
+    height: 768px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right center;
+    /* background-color: cornflowerblue; */
+    animation-name: zoraslika;
+    animation-duration: 3s;
+}
+
+#dobro_dosli {
+    position: relative;
+    display: none;
+    left: 20%;
+    top: 270px;
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px grey;
+    animation-name: dobrodosli;
+    animation-duration: 4s;
+    letter-spacing: normal;
+}
+
+#potpis {
+    position: relative;
+    display: none;
+    left: 30%;
+    top: 210px;
+    width: 270px;
+    height: 200px;
+    background-image: url("file:///C:/Users/Ivan/Desktop/DjoleSajt/assets/images/slider/01/potpistitule.png");
+    background-size: 270px 200px;
+    animation-name: potpis;
+    animation-duration: 4s;
+}
+
+
+@keyframes zoraslika {
+    from {background-position: center; opacity: 0;}
+}
+
+@keyframes potpis {
+    from {opacity: 0; left: 650px; top: 300px;}
+}
+
+@keyframes potpis2 {
+    from {opacity: 0; left: 20%; top: 200px;}
+}
+
+@keyframes dobrodosli {
+    from { letter-spacing: 10px; 
+        left: 150px; 
+        top:200px; 
+        height: 20px; 
+        font-size: 110px; 
+        opacity: 0;
+    }
+}
+
+@keyframes dobrodosli2 {
+    from { letter-spacing: 10px; left: 0px; top:0px; height: 20px; font-size: 35px; opacity: 0;}
+}
+
+#bili_smo {
+    position: relative;
+    z-index: 4;
+    display: none;
+    font-size: 90px;
+    color: #6a6a6a;
+    left: 450px;
+    top: 220px;
+    animation: bilismo;
+    animation-duration: 4s;
+}
+
+#ordinacija {
+    position: relative;
+    z-index: 3;
+    background-image: url("file:///C:/Users/Ivan/Desktop/DjoleSajt/assets/images/slider/01/ordinacija.png");
+    background-size: 650px 650px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 650px;
+    height: 650px;
+    left: 300px;
+    top: 50px;
+    /* border: 1px solid black; */
+    display: none;
+    animation: ordinacija;
+    animation-duration: 4s;
+}
+
+@keyframes bilismo {
+    from {top: 100px;}
+}
+@keyframes bilismo2 {
+    from {top: 20px;}
+}
+
+@keyframes ordinacija {
+    from {background-size: 100px 100px; opacity: 0;}
+}
+
+@keyframes ordinacija2 {
+    from {background-size: 0px 0px; opacity: 0;}
+}
+
+#sada_smo {
+    position: relative;
+    z-index: 6;
+    display: none;
+    font-size: 90px;
+    color: #6a6a6a;
+    left: 320px;
+    top: 280px;
+    animation: bilismo;
+    animation-duration: 4s;
+}
+
+#bolnica {
+    position: relative;
+    z-index: 5;
+    background-image: url("file:///C:/Users/Ivan/Desktop/DjoleSajt/assets/images/logo/zoralogo.png");
+    background-size: 700px 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 700px;
+    height: 700px;
+    left: 200px;
+    top: 10px;
+    /* border: 1px solid black; */
+    display: none;
+    animation: bolnica;
+    animation-duration: 4s;
+}
+
+@keyframes bolnica {
+    from {background-size: 100px 100px; opacity: 0; top: 20px;}
+}
+
+@keyframes bolnica2 {
+    from {background-size: 50px 50px; opacity: 0; top: 10px;}
+}
+
+#slika1, #slika2, #slika3, #slika4, #slika5 {
+    position: relative;
+    background-size: 650px 80px;
+    width: 650px;
+    height: 80px;
+    left: 220px;
+    top: -550px;
+    z-index: 8;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+    animation: slika;
+    animation-duration: 1s;
+}
+
+#usluge {
+    position: relative;
+    height: 295px;
+    left: 0px;
+    display: none;
+    background-color: rgba(190, 149, 228, .8);
+    padding: 2% 0 0 5%;
+    width: 45%;
+    z-index: 9;
+    animation-name: usluge;
+    animation-duration: 2s;
+}
+
+.usluge {
+    display: none;
+}
+
+.usluge a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+
+#slika1 {
+    background-image: url("file:///C:/Users/Ivan/Desktop/DjoleSajt/assets/images/slider/01/palijativnanega.jpg");
+}
+
+#slika2 {
+    background-image: url("file:///C:/Users/Ivan/Desktop/DjoleSajt/assets/images/slider/01/gerijatrija.jpg");
+}
+
+#slika3 {
+    background-image: url("file:///C:/Users/Ivan/Desktop/DjoleSajt/assets/images/slider/01/internamedicina.jpg");
+}
+
+#slika4 {
+    background-image: url("file:///C:/Users/Ivan/Desktop/DjoleSajt/assets/images/slider/01/stacionar.jpg");
+}
+
+#slika5 {
+    background-image: url("file:///C:/Users/Ivan/Desktop/DjoleSajt/assets/images/slider/01/ambulanta.jpg");
+}
+
+@keyframes slika {
+    from {top: -150px;}
+}
+@keyframes slika2 {
+    from {top: -50px;}
+}
+
+@keyframes usluge {
+    from {width: 0%;}
+}
+
+@media only screen and (min-width: 320px) { 
+    /* body {background-color: black;} */
+
+    .img-border {
+        border: 5px solid #BE95E4;
+        max-width: 200px;
+      }
+
+    #animacija {
+        width: 100%;
+    }
+
+    #dobro_dosli {
+        left: 10%;
+        top: 80px;
+        font-size: 24px;
+        animation-name: dobrodosli2;
+        animation-duration: 4s;
+    }
+
+    #potpis {
+        left: 20%;
+        top: 65px;
+        width: 100px;
+        height: 74px;
+        background-size: 100px 74px;
+        animation-name: potpis2;
+    }
+
+    #bili_smo {
+        font-size: 24px;
+        left: 20%;
+        top: 80px;
+        animation-name: bilismo2;
+    }
+
+    #ordinacija {
+        width: 130px;
+        height: 130px;
+        left: 15%;
+        top: 50px;
+        background-size: 130px 130px;
+        animation-name: ordinacija2;
+    }
+
+    #sada_smo {
+        font-size: 24px;
+        left: 15%;
+        top: 80px;
+        animation-name: bilismo2;
+    }
+
+    #bolnica {
+        background-size: 170px 170px;
+        width: 170px;
+        height: 170px;
+        left: 5%;
+        top: 15px;
+        animation-name: bolnica2;
+    }
+
+    #slika1, #slika2, #slika3, #slika4, #slika5 {
+        position: relative;
+        background-size: 120px 20px;
+        width: 120px;
+        height: 20px;
+        left: 10%;
+        top: -120px;
+        animation-name: slika2;
+    }
+
+    #usluge {
+        /* top: -15%; */
+    }
+
+    .usluge {
+        margin: 0;
+        height: 20px;
+        
+    }
+
+    .usluge a {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (min-width: 448px) { 
+    /* body {background-color:green;} */
+    #animacija {
+        width: 100%;
+    }
+    .img-border {
+        border: 5px solid #BE95E4;
+        max-width: 300px;
+      }
+
+    #dobro_dosli {
+        top: 100px; /*270px*/
+        font-size: 35px;
+    }
+
+    #potpis {
+        left: 20%;
+        top: 65px;
+        width: 150px;
+        height: 124px;
+        background-size: 150px 124px;
+        animation-name: potpis2;
+    }
+
+    #bili_smo {
+        font-size: 35px;
+        left: 20%;
+        top: 100px;
+        animation-name: bilismo2;
+    }
+
+    #ordinacija {
+        width: 180px;
+        height: 180px;
+        left: 15%;
+        top: 50px;
+        background-size: 180px 180px;
+        animation-name: ordinacija2;
+    }
+
+    #sada_smo {
+        font-size: 35px;
+        left: 15%;
+        top: 100px;
+        animation-name: bilismo2;
+    }
+
+    #bolnica {
+        background-size: 250px 250px;
+        width: 250px;
+        height: 250px;
+        left: 5%;
+        top: 15px;
+        animation-name: bolnica2;
+    }
+
+    #slika1, #slika2, #slika3, #slika4, #slika5 {
+        position: relative;
+        background-size: 160px 30px;
+        width: 160px;
+        height: 30px;
+        left: 10%;
+        top: -160px;
+        animation-name: slika2;
+    }
+
+    #usluge {
+        /* top: -15%; */
+    }
+
+    .usluge {
+        margin: 0;
+        height: 30px;
+        
+    }
+
+    .usluge a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 576px) { 
+    /* body {background-color: aqua;} */
+    #animacija {
+        width: 100%;
+    }
+
+    .img-border {
+        border: 5px solid #BE95E4;
+        max-width: 300px;
+      }
+
+    #dobro_dosli {
+        left: 5%;
+        top: 140px; /*270px*/
+        font-size: 50px;
+    }
+
+    #potpis {
+        left: 15%;
+        top: 90px;
+        width: 200px;
+        height: 170px;
+        background-size: 200px 170px;
+        animation-name: potpis2;
+    }
+
+    #bili_smo {
+        font-size: 50px;
+        left: 20%;
+        top: 120px;
+        animation-name: bilismo2;
+    }
+
+    #ordinacija {
+        width: 280px;
+        height: 280px;
+        left: 10%;
+        top: 50px;
+        background-size: 280px 280px;
+        animation-name: ordinacija2;
+    }
+
+    #sada_smo {
+        font-size: 50px;
+        left: 15%;
+        top: 120px;
+        animation-name: bilismo2;
+    }
+
+    #bolnica {
+        background-size: 350px 350px;
+        width: 350px;
+        height: 350px;
+        left: 5%;
+        top: -10px;
+        animation-name: bolnica2;
+    }
+
+    #slika1, #slika2, #slika3, #slika4, #slika5 {
+        position: relative;
+        background-size: 200px 30px;
+        width: 200px;
+        height: 30px;
+        left: 10%;
+        top: -260px;
+        animation-name: slika2;
+    }
+
+    #usluge {
+        /* top: -16%; */
+    }
+
+    .usluge {
+        margin: 0;
+        height: 38px;
+        
+    }
+
+    .usluge a {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 768px) { 
+    /* body {background-color: chocolate;} */
+    #animacija {
+        width: 100%;
+    }
+
+    .img-border {
+        border: 5px solid #BE95E4;
+        max-width: 300px;
+      }
+
+    #dobro_dosli {
+        top: 170px; /*270px*/
+        font-size: 70px;
+    }
+
+    #dobro_dosli {
+        left: 5%;
+        top: 140px; /*270px*/
+        font-size: 70px;
+    }
+
+    #potpis {
+        left: 15%;
+        top: 90px;
+        width: 250px;
+        height: 200px;
+        background-size: 200px 200px;
+        animation-name: potpis2;
+    }
+
+    #bili_smo {
+        font-size: 70px;
+        left: 20%;
+        top: 140px;
+        animation-name: bilismo2;
+    }
+
+    #ordinacija {
+        width: 400px;
+        height: 400px;
+        left: 10%;
+        top: 50px;
+        background-size: 400px 400px;
+        animation-name: ordinacija2;
+    }
+
+    #sada_smo {
+        font-size: 70px;
+        left: 15%;
+        top: 140px;
+        animation-name: bilismo2;
+    }
+
+    #bolnica {
+        background-size: 450px 450px;
+        width: 450px;
+        height: 450px;
+        left: 5%;
+        top: -10px;
+        animation-name: bolnica2;
+    }
+
+    #slika1, #slika2, #slika3, #slika4, #slika5 {
+        position: relative;
+        background-size: 300px 60px;
+        width: 300px;
+        height: 60px;
+        left: 10%;
+        top: -350px;
+        animation-name: slika2;
+    }
+
+    #usluge {
+        /* top: -17%; */
+    }
+
+    .usluge {
+        margin: 0;
+        height: 48px;
+        
+    }
+
+    .usluge a {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) { 
+    /* body {background-color: yellow;} */
+    #animacija {
+        width: 100%;
+    }
+
+    .img-border {
+        border: 5px solid #BE95E4;
+        max-width: 300px;
+      }
+
+    #dobro_dosli {
+        top: 250px; /*270px*/
+        font-size: 75px;
+    }
+
+    #potpis {
+        left: 15%;
+        top: 180px;
+        width: 250px;
+        height: 200px;
+        background-size: 200px 200px;
+        animation-name: potpis2;
+    }
+
+    #bili_smo {
+        font-size: 70px;
+        left: 20%;
+        top: 220px;
+        animation-name: bilismo2;
+    }
+
+    #ordinacija {
+        width: 450px;
+        height: 450px;
+        left: 12%;
+        top: 90px;
+        background-size: 450px 450px;
+        animation-name: ordinacija2;
+    }
+
+    #sada_smo {
+        font-size: 70px;
+        left: 20%;
+        top: 220px;
+        animation-name: bilismo2;
+    }
+
+    #bolnica {
+        background-size: 550px 550px;
+        width: 550px;
+        height: 550px;
+        left: 5%;
+        top: 20px;
+        animation-name: bolnica2;
+    }
+
+    #slika1, #slika2, #slika3, #slika4, #slika5 {
+        position: relative;
+        background-size: 350px 60px;
+        width: 350px;
+        height: 60px;
+        left: 10%;
+        top: -350px;
+        animation-name: slika2;
+    }
+
+    #usluge {
+        position: relative;
+        /* top:-18%; */
+        left: 0px;
+        background-color: rgba(190, 149, 228, .8);
+        padding: 2% 0 0 5%;
+        width: 45%;
+        z-index: 9;
+        animation-name: usluge;
+        animation-duration: 2s;
+    }
+
+    .usluge {
+        margin-bottom: 20px;
+    }
+    
+    .usluge a {
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px) { 
+    /* body {background-color: gray;}  */
+    #animacija {
+        width: 100%;
+    }
+
+    .img-border {
+        border: 5px solid #BE95E4;
+        max-width: 300px;
+      }
+
+    #dobro_dosli {
+        left: 20%;
+        top: 270px; /*270px*/
+        font-size: 100px;
+        animation-name: dobrodosli;
+        animation-duration: 4s;
+    }
+
+    #potpis {
+        position: relative;
+        left: 30%;
+        top: 210px;
+        width: 270px;
+        height: 200px;
+        background-size: 270px 200px;
+        animation-name: potpis;
+        animation-duration: 4s;
+    }
+
+    #bili_smo {
+        position: relative;
+        z-index: 4;
+        font-size: 90px;
+        left: 450px;
+        top: 220px;
+        animation-name: bilismo;
+        animation-duration: 4s;
+    }
+
+    #ordinacija {
+        position: relative;
+        z-index: 3;
+        background-size: 650px 650px;
+        width: 650px;
+        height: 650px;
+        left: 300px;
+        top: 50px;
+        /* border: 1px solid black; */
+        animation-name: ordinacija;
+        animation-duration: 4s;
+    }
+
+    #sada_smo {
+        position: relative;
+        z-index: 6;
+        font-size: 90px;
+        left: 320px;
+        top: 280px;
+        animation-name: bilismo;
+        animation-duration: 4s;
+    }
+
+    #bolnica {
+        position: relative;
+        background-size: 700px 700px;
+        width: 700px;
+        height: 700px;
+        left: 200px;
+        top: 10px;
+        /* border: 1px solid black; */
+        animation-name: bolnica;
+        animation-duration: 4s;
+    }
+
+    #slika1, #slika2, #slika3, #slika4, #slika5 {
+        position: relative;
+        background-size: 650px 80px;
+        width: 650px;
+        height: 80px;
+        left: 220px;
+        top: -550px;
+        animation-name: slika;
+        animation-duration: 1s;
+    }
+
+    #usluge {
+        position: relative;
+        /* height: 300px; */
+        left: 0px;
+        background-color: rgba(190, 149, 228, .8);
+        padding: 2% 0 0 5%;
+        width: 45%;
+        z-index: 9;
+        animation-name: usluge;
+        animation-duration: 2s;
+    }
+
+    .usluge {
+        margin-bottom: 20px;
+    }
+    
+    .usluge a {
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 1700px){
+    #animacija {
+        background-size: 1020px 765px;
+        max-height: 768px;
+        height: 768px;
+        width: 80%;
+        /* background-color: cornflowerblue; */
+        animation-name: zoraslika;
+        animation-duration: 3s;
+    }
+
+    .img-border {
+        border: 5px solid #BE95E4;
+        max-width: 300px;
+      }
+    
+}
