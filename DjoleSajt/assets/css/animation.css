@@ -2,7 +2,7 @@
     display: block;
     margin: 0 auto;
     margin-top: 2px;
-    background-image: url("file:///C:/Users/Ivan/Desktop/DjoleSajt/assets/images/slider/01/01slika.jpg");
+    background-image: url("https://ivanmaksimovic97.github.io/DjoleSajt/assets/images/slider/01/01slika.jpg");
     background-size: 1020px 765px;
     max-height: 768px;
     height: 768px;
@@ -35,7 +35,7 @@
     top: 210px;
     width: 270px;
     height: 200px;
-    background-image: url("file:///C:/Users/Ivan/Desktop/DjoleSajt/assets/images/slider/01/potpistitule.png");
+    background-image: url("https://ivanmaksimovic97.github.io/DjoleSajt/assets/images/slider/01/potpistitule.png");
     background-size: 270px 200px;
     animation-name: potpis;
     animation-duration: 4s;
@@ -83,7 +83,7 @@
 #ordinacija {
     position: relative;
     z-index: 3;
-    background-image: url("file:///C:/Users/Ivan/Desktop/DjoleSajt/assets/images/slider/01/ordinacija.png");
+    background-image: url("https://ivanmaksimovic97.github.io/DjoleSajt/assets/images/slider/01/ordinacija.png");
     background-size: 650px 650px;
     background-repeat: no-repeat;
     background-position: center;
@@ -127,7 +127,7 @@
 #bolnica {
     position: relative;
     z-index: 5;
-    background-image: url("file:///C:/Users/Ivan/Desktop/DjoleSajt/assets/images/logo/zoralogo.png");
+    background-image: url("https://ivanmaksimovic97.github.io/DjoleSajt/assets/images/logo/zoralogo.png");
     background-size: 700px 700px;
     background-repeat: no-repeat;
     background-position: center;
@@ -191,23 +191,23 @@
 
 
 #slika1 {
-    background-image: url("file:///C:/Users/Ivan/Desktop/DjoleSajt/assets/images/slider/01/palijativnanega.jpg");
+    background-image: url("https://ivanmaksimovic97.github.io/DjoleSajt/assets/images/slider/01/palijativnanega.jpg");
 }
 
 #slika2 {
-    background-image: url("file:///C:/Users/Ivan/Desktop/DjoleSajt/assets/images/slider/01/gerijatrija.jpg");
+    background-image: url("https://ivanmaksimovic97.github.io/DjoleSajt/assets/images/slider/01/gerijatrija.jpg");
 }
 
 #slika3 {
-    background-image: url("file:///C:/Users/Ivan/Desktop/DjoleSajt/assets/images/slider/01/internamedicina.jpg");
+    background-image: url("https://ivanmaksimovic97.github.io/DjoleSajt/assets/images/slider/01/internamedicina.jpg");
 }
 
 #slika4 {
-    background-image: url("file:///C:/Users/Ivan/Desktop/DjoleSajt/assets/images/slider/01/stacionar.jpg");
+    background-image: url("https://ivanmaksimovic97.github.io/DjoleSajt/assets/images/slider/01/stacionar.jpg");
 }
 
 #slika5 {
-    background-image: url("file:///C:/Users/Ivan/Desktop/DjoleSajt/assets/images/slider/01/ambulanta.jpg");
+    background-image: url("https://ivanmaksimovic97.github.io/DjoleSajt/assets/images/slider/01/ambulanta.jpg");
 }
 
 @keyframes slika {
