@@ -172,7 +172,7 @@ window.setTimeout(function(){
 }, 19000);
 
 window.setTimeout(function(){
-    $('#animacija').css('background-image', 'url("file:///C:/Users/Ivan/Desktop/DjoleSajt/assets/images/slider/02/02slika.jpg")');
+    $('#animacija').css('background-image', 'url("https://ivanmaksimovic97.github.io/DjoleSajt/assets/images/slider/02/02slika.jpg")');
     $('#animacija').css('background-position', 'right center');
     $('#animacija').animate({
         opacity: 1
@@ -196,7 +196,7 @@ window.setTimeout(function(){
 animation();
 
 window.setInterval(function(){
-    $('#animacija').css('background-image', 'url("file:///C:/Users/Ivan/Desktop/DjoleSajt/assets/images/slider/01/01slika.jpg")');
+    $('#animacija').css('background-image', 'url("https://ivanmaksimovic97.github.io/DjoleSajt/assets/images/slider/01/01slika.jpg")');
     $('#animacija').animate({
         opacity: 1
     }, 1000);
